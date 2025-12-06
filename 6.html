@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top" class="text-white">
+        <div class="container-fluid">
+            <span class="navbar-text">
+                <img src="bmw2.jfif" height="80px" class="rounded-pill">
+            </span>
+            <ul class="navbar-nav">
+                <li class="navbar-brand">
+                    <!-- <a class="navbar-brand" href="#">Logo</a> -->
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button class="navbar-toggler" data-bs-target="#abc" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="abc">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Mobile</a></li>
+                            <li><a href="#" class="dropdown-item">Laptop</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a href="#" class="dropdown-item">TV</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" data-bs-ride="carousel" id="cc" data-bs-pause="hover">
+        <div class="carousel-indicators">
+            <button type="button" class="bg-danger active" data-bs-target="#cc" data-bs-slide-to="0"></button>
+            <button type="button" class="bg-warning" data-bs-target="#cc" data-bs-slide-to="1"></button>
+            <button type="button" class="bg-success" data-bs-target="#cc" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="Dodge.jfif" class="d-block w-100 vh-50" style="height:500px">
+                <div class="carousel-caption">
+                    <h1>First Slide</h1>
+                    <a href="#" class="btn btn-info">Click me</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="bmw1.jfif" class="d-block w-100 vh-50" style="height:500px">
+                <div class="carousel-caption">
+                    <h1>Second Slide</h1>
+                    <a href="#" class="btn btn-info">Click me</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="bmw2.jfif" class="d-block w-100 vh-50" style="height:500px">
+                <div class="carousel-caption">
+                    <h1>Third Slide</h1>
+                    <a href="#" class="btn btn-info">Click me</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cc" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cc" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</body>
+</html>
